@@ -1,6 +1,8 @@
 第一次編譯成功
 執行時間為 2.313482 sec
 
+## 第一次commit
+
 接下來發現在 math-toolkit.h 這個檔案裡發現 dot_product這個function中
 for迴圈不是必要的存在，for的指令反而會增加程式執行時間
 
@@ -19,6 +21,10 @@ for迴圈不是必要的存在，for的指令反而會增加程式執行時間
 重新編譯後執行時間變為 2.058561 sec 
 有稍微的下降
 
-
+## 第二次commit
 在 models.inc 新增了物件畫出神奇圈圈
-執行時間為 2.561502 sec
+執行時間增加為 2.561502 sec
+
+## 第三次commit
+math-toolkit.h 中還發現許多function 也可以把for的指令拿掉
+執行時間減少為 1.926840 sec
