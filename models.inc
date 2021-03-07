@@ -99,3 +99,36 @@ rectangular rectangular3 = {
         .index_of_refraction = 0.0, .phong_power = 5.0,
     },
 };
+
+static const
+sphere sphere4 = {
+    .center = { 16, 16, 0 },
+    .radius = 3,
+    .sphere_fill = {
+        .fill_color = { 0.3, 0.4, 0.5 },
+        .Kd = 0.8, .Ks = 0.6, .T = 0.0, .R = 0.1,
+        .index_of_refraction = 0.5, .phong_power = 25.0
+    }
+};
+
+static const
+sphere sphere5 = {
+    .center = { 12, 16, 0 },
+    .radius = 2,
+    .sphere_fill = {
+        .fill_color = { 0.3, 0.4, 0.5 },
+        .Kd = 0.8, .Ks = 0.6, .T = 0.0, .R = 0.1,
+        .index_of_refraction = 0.5, .phong_power = 25.0
+    }
+};
+
+static const
+sphere sphere6 = {
+    .center = { 16, 12, 0 },
+    .radius = 2,
+    .sphere_fill = {
+        .fill_color = { 0.3, 0.4, 0.5 },
+        .Kd = 0.8, .Ks = 0.6, .T = 0.0, .R = 0.1,
+        .index_of_refraction = 0.5, .phong_power = 25.0
+    }
+};
