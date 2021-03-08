@@ -25,6 +25,8 @@ for迴圈不是必要的存在，for的指令反而會增加程式執行時間
 在 models.inc 新增了物件畫出神奇圈圈
 執行時間增加為 2.561502 sec
 
+![](/circle)
+
 ## 第三次commit
 math-toolkit.h 中還發現許多function 也可以把for的指令拿掉
 執行時間減少為 1.926840 sec
